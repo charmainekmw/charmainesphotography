@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
+      <script src="../assets/js/index.js" defer></script>
+    <!--FONTS AND ICONS-->
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/e22d86db74.js" crossorigin="anonymous"></script>
+      <!--TITLE-->
+    <title>charmaine's portfolio</title>
+  </head>
+<!--ALL HTML BELOW-->
+   <body>
+        <div id="wrapper">
+            <nav>
+                <a href="../index.html"><img src="../assets/images/logo.png" alt="Charmaine Kwok's photograph" class="logo"></a>
+                <div class="burger" onclick="toggleMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <ul class="nav">
+                    <li><a href="../pages/about.html">ABOUT ME</a></li>
+                    <li><a href="https://www.instagram.com/ahsylum/" target="_blank">INSTAGRAM</a></li>
+                 </ul>
+             </nav>
+            <div class="hero-image-container-syd">
+                <div class="herodiv">
+                    <h1 class="hero-title"> SYDNEY </h1>
+                    <h2 class="herosub"> Current </h2>
+                </div>
+            </div>
+            <div class="introduction"> 
+                <p> Where I live in. Images of the busiest city in Australia. <br> A place with the most amazing beaches and sunsets in the world  </p>
+            </div>
+            <ul class="tabs-title">
+                <li data-tab-target="#street" class="active sydney-tab"><h2>Street</h2></li>
+                <li data-tab-target="#film" class="sydney-tab"><h2>Film</h2></li>
+                <li data-tab-target="#sunset" class="sydney-tab"><h2>Sunset</h2></li>
+            </ul>
+            <main class="tab-content">
+                <div id="street" data-tab-content class="active">
+                    <div class="images">
+                        <img src="../assets/images/sydney-cover-image.jpg" alt="A view of cars on road with buildings surrounding">
+                        <img src="../assets/images/sydney-street-5.jpg" alt="a young boy and a girl playing with sand in a beach">
+                        <img src="../assets/images/sydney-street-6.jpg" alt="exterior view of a lit bakery at night">
+                        <img src="../assets/images/sydney-street-2.jpg" alt="back view a couple surrounded with leafy trees">
+                        <img src="../assets/images/sydney-street-4.jpg" alt="tall architectural building">       
+                        <img src="../assets/images/sydney-street-3.jpg" alt="an old man with a smiley face sign walking towards the camera" class="columns-image-right">
+                        <img src="../assets/images/sydney-street-7.jpg" alt="an old man's wrinkly hands">
+                        <img src="../assets/images/sydney-street-8.jpg" alt="a small girl sitting in the middle with a woman and an old man next to her">
+                    </div>
+                </div>
+                <div id="film" data-tab-content>
+                    <div class="images">
+                        <img src="../assets/images/sydney-film-2.jpg" alt="a back view of a yellow van parked in front of a white house">
+                        <img src="../assets/images/sydney-film-1.jpg" alt="a teenage boy skateboarding by the beach">
+                        <img src="../assets/images/sydney-film-9.jpg" alt="a chair in front of a blue window">
+                        <img src="../assets/images/sydney-film-8.jpg" alt="three kids in a park running towards the camera">
+                        <img src="../assets/images/sydney-film-3.jpg" alt="a far view of the moon on blue sky">
+                        <img src="../assets/images/sydney-film-7.jpg" alt="a pond with four small ducks">
+                        <img src="../assets/images/sydney-film-4.jpg" alt="a woman sitting on a red chair in the beach">
+                        <img src="../assets/images/sydney-film-6.jpg" alt="a sculptural fountain in the middle of tall dense green trees">
+                    </div>
+                </div>
+                <div id="sunset" data-tab-content>
+                    <div class="images">
+                        <img src="../assets/images/sydney-sunset-1.jpg" alt="a couple standing below the moon during sunset">
+                        <img src="../assets/images/sydney-sunset-2.jpg" alt="a far view of skyline during purple sunset">
+                        <img src="../assets/images/sydney-sunset-5.jpg" alt="moon and purple sunset reflected on the ocean water">
+                        <img src="../assets/images/sydney-sunset-3.jpg" alt="a far view of a purple and pink sunset in a green field">
+                    </div>
+                </div>
+                <div class="modal">
+                    <span class="close">
+                        <i class="fas fa-times"></i>
+                    </span>
+                    
+                    <div class="modalContent">
+                     <!--image source is blank because it is dependent on which image is clicked on -->
+                        <img src="" class="modalImg" />
+                        <span class="modalTxt"></span>
+                    </div>
+                </div>
+                <a href="#" class="to-top">
+                    <i class="fas fa-chevron-up"></i>
+                </a>
+            </main>
+            <footer>
+                <img src="../assets/images/logo.png" alt="Charmaine Kwok's photograph" class="logo-footer">
+                <div class="copyright">
+                    <h3> Copyright &#169; 2020 Charmaine Kwok Photography. All rights reserved. </h3>
+                </div>
+            </footer>
+        </div> <!--wrapper div closer-->
+    </body> <!--body div closer-->
+</html> <!--html div closer-->

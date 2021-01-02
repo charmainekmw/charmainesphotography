@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
+      <script src="../assets/js/index.js" defer></script>
+    <!--FONTS AND ICONS-->
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/e22d86db74.js" crossorigin="anonymous"></script>
+      <!--TITLE-->
+    <title>charmaine's portfolio</title>
+  </head>
+<!--ALL HTML BELOW-->
+   <body>
+        <div id="wrapper">
+            <nav>
+                <a href="../index.html"><img src="../assets/images/logo.png" alt="Charmaine Kwok's photograph" class="logo"></a>
+                <div class="burger" onclick="toggleMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <ul class="nav">
+                    <li><a href="../pages/about.html">ABOUT ME</a></li>
+                    <li><a href="https://www.instagram.com/ahsylum/" target="_blank">INSTAGRAM</a></li>
+                 </ul>
+             </nav>
+            <div class="hero-image-container-taiwan">
+                <div class="herodiv">
+                    <h1 class="hero-title"> TAIWAN </h1>
+                    <h2 class="herosub"> Feburary 2020</h2>
+                </div>
+            </div>
+            <div class="introduction"> 
+                <p> My first solo trip to a small town located in Taiwan. 
+                <br>
+                A place with the greatest food, culture and people. 
+                Although old, it has its uniqueness. </p>
+            </div>
+            <ul class="tabs-title">
+                <li data-tab-target="#street" class="active taiwan-tab"><h2>Street</h2></li>
+                <li data-tab-target="#film" class="taiwan-tab"><h2>Film</h2></li>
+                <li data-tab-target="#others" class="taiwan-tab"><h2>Others</h2></li>
+            </ul>
+            <main class="tab-content">
+                <div id="street" data-tab-content class="active">
+                    <div class="images">
+                        <img src="../assets/images/taiwan-street.jpg" alt="A back view of an old woman and old man next to a small girl" >
+                        <img src="../assets/images/taiwan-street-3.jpg" alt="Front view of narrow road surrounded with old buildings" >
+                        <img src="../assets/images/taiwan-street-5.jpg" alt="A far view of a middle aged man sitting in front of an old store" >
+                        <img src="../assets/images/taiwan-cover-image.jpg" alt="yellow ancient landmark in front of blue sky">
+                        <img src="../assets/images/taiwan-street-4.jpg" alt="a far view of an ancient temple besides a body of water">
+                        <img src="../assets/images/taiwan-street-6.jpg" alt="A view from behind man riding a bicycle in the middle of a traffic road">
+                    </div>
+                </div>
+                <div id="film" data-tab-content>
+                    <div class="images">
+                        <img src="../assets/images/taiwan-film-1.jpg" alt="Four woman sitting underneath a huge tree">
+                        <img src="../assets/images/taiwan-film-2.jpg" alt="Five children kneeling by a small lake">
+                        <img src="../assets/images/taiwan-film-3.jpg" alt="A kid wearing a mask chasing birds">
+                        <img src="../assets/images/taiwan-film-4.jpg" alt="A far view of factory buildings near an ocean">
+                    </div>
+                </div>
+                <div id="others" data-tab-content>
+                    <div class="images">
+                        <img src="../assets/images/taiwan-others-5.jpg" alt="colourful train station light mural" >
+                        <img src="../assets/images/taiwan-others-2.jpg" alt="A bottom view of the top of a mountain hill">
+                        <img src="../assets/images/taiwan-others-3.jpg" alt="A back view of a man near a lake viewing an orange sunset" >
+                        <img src="../assets/images/taiwan-others-4.jpg" alt="A small harbour on a body of water">
+                    </div>
+                </div>
+                <div class="modal">
+                    <span class="close">
+                        <i class="fas fa-times"></i>
+                    </span>
+                    <div class="modalContent">
+                        <!--image source is blank because it is dependent on which image is clicked on -->
+                        <img src="" class="modalImg" />
+                        <span class="modalTxt"></span>
+                    </div>
+                </div>
+                <a href="#" class="to-top">
+                    <i class="fas fa-chevron-up"></i>
+                </a>
+            </main>
+            <footer>
+                <img src="../assets/images/logo.png" alt="Charmaine Kwok's photograph" class="logo-footer">
+                <div class="copyright">
+                    <h3> Copyright &#169; 2020 Charmaine Kwok Photography. All rights reserved. </h3>
+                </div>
+            </footer>
+        </div> <!--wrapper div closer-->
+    </body> <!--body div closer-->
+</html> <!--html div closer-->
